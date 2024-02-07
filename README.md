@@ -1,4 +1,4 @@
-# Dokumentation för Dataanalysprojekt #
+# Dokumentation för Skolprojekt i Python med Pandas #
 
 ## Syfte med projektet ##
 
