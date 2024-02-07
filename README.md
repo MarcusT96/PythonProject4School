@@ -27,7 +27,18 @@ Starta Programmet: Kör huvudscriptet. Detta öppnar en terminalbaserad meny med
 
 Välj Funktion: Använd menyn för att välja om du vill visa en enskild dataserie eller jämföra två serier. Följ sedan instruktionerna på skärmen för att göra dina val.
 
-Utforska Data: Efter att ha valt dataserier, visas det motsvarande diagrammet. Använd detta för att utforska och analysera datan.
+# "plot_dataframe()" #
+Returnerar en plottad Dataframe när man väljer endast en Dataframe att titta på.
+
+# get_dataframe_choice() #
+Returnerar en sträng av menyvalet som användaren gjort. Denna används för att få reda på vilka Dataframes som användaren vill jämföra.
+
+# compare_dataframes() #
+Tar in två Dataframe-val som argument och plottar sedan dessa med två y-axlar och returnerar en plot på två Dataframes i samma plot.
+
+# main() #
+Huvudfunktionen med en while-loop som körs hela tiden tills vi väljer "Q" för att avsluta loopen. Här finns huvudmenyn printad för användaren att se vad den kan välja. 
+Returnerar menyn och plottar enligt önskemål på den datan som går att välja. 
 
 Avsluta Programmet: När du är klar, välj alternativet "Q" för att avsluta programmet från huvudmenyn.
 
